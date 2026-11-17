@@ -1,0 +1,30 @@
+{
+  "series": [
+    {
+      "id": "amanda",
+      "name": "Amanda",
+      "version": "1.0.0",
+      "description": "Set with brunette. Ink graved style",
+      "author": "Carlo",
+      "license": "CC BY 4.0",
+      "attribution": "Carlo, CC BY 4.0 (invented character)",
+      "count": 195,
+      "bytes": 25591302,
+      "sha256": "5b7aa42db9a709d579fdddcf702df4a0d100c0acfa26ba7655a3c6bd1d9ef669",
+      "zip_url": "https://github.com/carlosteiner/avatar-weather-card-images/releases/download/amanda-v1.0.0/amanda-1.0.0.zip"
+    },
+    {
+      "id": "laura",
+      "name": "Laura",
+      "version": "1.0.0",
+      "description": "Laura, hand-written prompts (2026-11-16)",
+      "author": "Carlo",
+      "license": "CC BY 4.0",
+      "attribution": "Carlo, CC BY 4.0 (invented character)",
+      "count": 195,
+      "bytes": 13941593,
+      "sha256": "9fe9f8f12e2e809a5147dba195b17813958cde53534cbc38f562166fb91a7834",
+      "zip_url": "https://github.com/carlosteiner/avatar-weather-card-images/releases/download/laura-v1.0.0/laura-1.0.0.zip"
+    }
+  ]
+}
