@@ -5,6 +5,11 @@ name: Update the catalog
 on:
   release:
     types: [published, deleted]
+  workflow_dispatch:          # by hand (Actions tab -> Run workflow): for a release whose zip was attached after publishing
+    inputs:
+      tag:
+        description: "Release tag, e.g. amanda-v1.0.0"
+        required: true
 
 permissions:
   contents: write
@@ -22,15 +27,15 @@ jobs:
           ref: main
 
       - name: Download the zip of the release
-        if: github.event.action == 'published'
+        if: github.event.action != 'deleted'
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.event.release.tag_name }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
         run: gh release download "$TAG" --pattern '*.zip' --dir dl --repo "$GITHUB_REPOSITORY"
 
       - name: Update index.json
         env:
-          TAG: ${{ github.event.release.tag_name }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
           ACTION: ${{ github.event.action }}
         run: |
           if [ "$ACTION" = "deleted" ]; then
@@ -43,7 +48,7 @@ jobs:
 
       - name: Commit index.json
         env:
-          TAG: ${{ github.event.release.tag_name }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
         run: |
           if git diff --quiet index.json; then echo "index.json unchanged"; exit 0; fi
           git config user.name "github-actions[bot]"
