@@ -17,13 +17,13 @@
       "id": "laura",
       "name": "Laura",
       "version": "1.0.0",
-      "description": "Laura, hand-written prompts (2026-11-16)",
+      "description": "",
       "author": "Carlo",
       "license": "CC BY 4.0",
       "attribution": "Carlo, CC BY 4.0 (invented character)",
       "count": 195,
-      "bytes": 13941593,
-      "sha256": "9fe9f8f12e2e809a5147dba195b17813958cde53534cbc38f562166fb91a7834",
+      "bytes": 13941553,
+      "sha256": "011098dd3347d4636d6bda9b454d323939cf8d2f301cbb2ead47316dd8cfe529",
       "zip_url": "https://github.com/carlosteiner/avatar-weather-card-images/releases/download/laura-v1.0.0/laura-1.0.0.zip"
     }
   ]
