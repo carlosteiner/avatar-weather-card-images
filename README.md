@@ -17,3 +17,7 @@ See `index.json`. The zips are attached to the releases of this repository (tag 
 `tools/update_index.py` is the script the action runs; it can also be run by hand (`python3 tools/update_index.py --zip <zip> --tag <id>-v<version> --repo <owner/repo>`).
 
 Anyone can propose a set: open an issue or a pull request with the zip (or a link to it). Only share pictures you may share under the licence you state.
+
+## Licence
+
+The sets published here by Carlo (Amanda, Laura) are licensed under [CC BY 4.0](LICENSE): free to use and share, with credit. The licence of every set is stated in its own `series.json`.
