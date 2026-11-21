@@ -29,15 +29,15 @@
     {
       "id": "samanta",
       "name": "Samanta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Samanta, semi-realistic digital fashion illustration on a pedestal disc",
       "author": "Carlo",
       "license": "CC BY 4.0",
       "attribution": "Carlo, CC BY 4.0 (invented character)",
       "count": 195,
-      "bytes": 8497589,
-      "sha256": "7d4e157938f2b76f9e50abdddd9de6222f8ff797eb5f712f4baafef1fc325e20",
-      "zip_url": "https://github.com/carlosteiner/avatar-weather-card-images/releases/download/samanta-v1.0.0/samanta-1.0.0.zip"
+      "bytes": 8497603,
+      "sha256": "05c93ffe2af841a35572dd090eb37ceb5bf552682a82c51dc958a378ce0a492d",
+      "zip_url": "https://github.com/carlosteiner/avatar-weather-card-images/releases/download/samanta-v1.0.1/samanta-1.0.1.zip"
     }
   ]
 }
